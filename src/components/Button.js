@@ -10,11 +10,11 @@ function Button({ category }) {
   return (
     <div>
       <button
-        className={`px-1 py-1 m-2 shadow-xl rounded-xl${
-          isSelected ? "bg-white" : "bg-gray-200"
+        className={`px-2 py-1 m-2 rounded-lg ${
+          isSelected ? "bg-white" : "bg-gray-100"
         }`}
         onClick={handleClick}
-        disabled={isSelected}
+        disabled={isSelected} // You can remove this line if you want the button to be clickable when selected
       >
         {category}
       </button>

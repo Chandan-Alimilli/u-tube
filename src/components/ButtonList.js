@@ -9,7 +9,6 @@ function ButtonList() {
     "Travel",
     "Comedy",
     "Tech",
-    "Beauty",
     "Fitness",
     "Food",
     "Science",
@@ -24,7 +23,7 @@ function ButtonList() {
   ];
 
   return (
-    <div className="flex p-4 ">
+    <div className="flex px-4 py-1  bg-white ">
       {videoCategories.map((category) => (
         <Button key={category} category={category} />
       ))}

@@ -8,19 +8,19 @@ function SideBar() {
   if (!isMenuOpen) return null;
 
   return (
-    <div className="p-10 w-72 shadow-lg ">
+    <div className="px-10  py-4 shadow-lg   w-72    bg-white ">
       <ul className="font-bold   ">
         <li className="mb-2">
-          <Link to="/">Home</Link>
+          <Link to="/">🏠 Home</Link>
         </li>
-        <li className="mb-2">Shorts</li>
+        <li className="mb-2">⚡ Shorts</li>
         <li className="mb-2">
-          <Link to="/">Videos</Link>
+          <Link to="/">▶️ Videos</Link>
         </li>
         <li>_____________________</li>
       </ul>
 
-      <h1 className="font-bold mb-2 ">You ⌀</h1>
+      <h1 className="font-bold mb-2 ">🥷🏽 You </h1>
 
       <ul>
         <li className="mb-2">History</li>
@@ -31,11 +31,26 @@ function SideBar() {
         <li className="mb-2">_____________________</li>
       </ul>
 
-      <h1 className="font-bold mb-2 ">Explore⌀</h1>
+      <div className="font-bold mb-2 flex">
+        <img
+          src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-512.png"
+          alt="icon"
+          className="  mr-1 h-[25px]"
+        />
+        More from YouTube
+      </div>
 
       <ul>
-        <li className="mb-2">Trending</li>
-        <li className="mb-2">Shopping</li>
+        <li className="mb-2">YouTube Premium</li>
+        <li className="mb-2">YouTube Studio</li>
+        <li className="mb-2">YouTube Music</li>
+        <li className="mb-2">YouTube Kids</li>
+        <li className="mb-2">_____________________</li>
+      </ul>
+
+      <h1 className="font-bold mb-2 ">⌀ Explore</h1>
+
+      <ul>
         <li className="mb-2">Music</li>
         <li className="mb-2">Movies</li>
         <li className="mb-2">Live</li>
@@ -44,16 +59,6 @@ function SideBar() {
         <li className="mb-2">Sports</li>
         <li className="mb-2">Learning</li>
         <li className="mb-2">Podcasts</li>
-        <li className="mb-2">_____________________</li>
-      </ul>
-
-      <h1 className="font-bold mb-2">More from YouTube</h1>
-
-      <ul>
-        <li className="mb-2">YouTube Premium</li>
-        <li className="mb-2">YouTube Studio</li>
-        <li className="mb-2">YouTube Music</li>
-        <li className="mb-2">YouTube Kids</li>
       </ul>
     </div>
   );

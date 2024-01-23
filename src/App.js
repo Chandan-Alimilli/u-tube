@@ -7,6 +7,7 @@ import store from "./utils/store";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainContainer from "./components/MainContainer";
 import WacthPage from "./components/WacthPage";
+import Maintenance from "./components/Maintenance";
 
 const appRouter = createBrowserRouter([
   {
@@ -18,8 +19,12 @@ const appRouter = createBrowserRouter([
         element: <MainContainer />,
       },
       {
-        path: "wacth",
+        path: "watch",
         element: <WacthPage />,
+      },
+      {
+        path: "icons",
+        element: <Maintenance />,
       },
     ],
   },

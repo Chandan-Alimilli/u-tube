@@ -2,25 +2,46 @@ import { useEffect, useState } from "react";
 import { YOUBUTE_API } from "../utils/constans";
 import VideoCard from "./VideoCard";
 import { Link } from "react-router-dom";
+import ShimmerCont from "./Shimmer";
 
 function VideroCont() {
   const [videos, setVideos] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     getVideos();
   }, []);
 
   const getVideos = async () => {
-    const data = await fetch(YOUBUTE_API);
-    const json = await data.json();
-    // console.log(json.items);
-    setVideos(json.items);
+    try {
+      const data = await fetch(YOUBUTE_API);
+      const json = await data.json();
+      setVideos(json.items);
+      // console.log(json.items);
+    } catch (error) {
+      console.log(error.message || "Error fetching videos");
+    } finally {
+      setLoading(false);
+    }
   };
 
+  if (loading) return <ShimmerCont />;
+
   return (
-    <div className="flex flex-wrap p-5">
+    // <div
+    //   className="flex flex-wrap p-5
+    // overflow-x-auto "
+    // >
+    //   {videos.map((video) => (
+    //     <Link key={video.id} to={"/watch?v=" + video.id}>
+    //       <VideoCard cards={video} />
+    //     </Link>
+    //   ))}
+    // </div>
+
+    <div className="flex flex-wrap p-10 ">
       {videos.map((video) => (
-        <Link key={video.id} to={"/wacth?v=" + video.id}>
+        <Link key={video.id} to={"/watch?v=" + video.id}>
           <VideoCard cards={video} />
         </Link>
       ))}
