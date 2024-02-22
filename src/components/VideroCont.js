@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { YOUBUTE_API } from "../utils/constans";
+import { YOUBUTE_API } from "../utils/contants";
 import VideoCard from "./VideoCard";
 import { Link } from "react-router-dom";
 import ShimmerCont from "./Shimmer";
@@ -28,18 +28,7 @@ function VideroCont() {
   if (loading) return <ShimmerCont />;
 
   return (
-    // <div
-    //   className="flex flex-wrap p-5
-    // overflow-x-auto "
-    // >
-    //   {videos.map((video) => (
-    //     <Link key={video.id} to={"/watch?v=" + video.id}>
-    //       <VideoCard cards={video} />
-    //     </Link>
-    //   ))}
-    // </div>
-
-    <div className="flex flex-wrap p-10 ">
+    <div className="flex flex-wrap p-[10px] w-[90em]">
       {videos.map((video) => (
         <Link key={video.id} to={"/watch?v=" + video.id}>
           <VideoCard cards={video} />

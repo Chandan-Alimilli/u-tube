@@ -1,10 +1,9 @@
 import ButtonList from "./ButtonList";
-import Maintenance from "./Maintenance";
 import VideroCont from "./VideroCont";
 
 function MainContainer() {
   return (
-    <div className="">
+    <div className=" mt-[72px] ml-[18rem]">
       <ButtonList />
       <VideroCont />
     </div>

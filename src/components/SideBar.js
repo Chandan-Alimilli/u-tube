@@ -8,58 +8,55 @@ function SideBar() {
   if (!isMenuOpen) return null;
 
   return (
-    <div className="px-10  py-4 shadow-lg   w-72    bg-white ">
-      <ul className="font-bold   ">
-        <li className="mb-2">
-          <Link to="/">🏠 Home</Link>
-        </li>
-        <li className="mb-2">⚡ Shorts</li>
-        <li className="mb-2">
-          <Link to="/">▶️ Videos</Link>
-        </li>
-        <li>_____________________</li>
-      </ul>
+    <div className="pl-10  py-1 shadow-lg w-[18rem] mt-[74px] fixed bg-white text-xl overflow-y-auto h-screen scrollbar-track-gray-400 ">
+      <div className=" ">
+        <ul className="font-bold">
+          <li className="mb-[10px] text-md ">
+            <Link to="/">▢ Home</Link>
+          </li>
+          <li className="mb-[14px]">◇ Shorts</li>
+          <li className="">
+            <Link to="/">▷ Videos</Link>
+          </li>
+          <li>_____________________</li>
+        </ul>
 
-      <h1 className="font-bold mb-2 ">🥷🏽 You </h1>
+        <h1 className="font-bold mb-[14px] ">◎ You </h1>
 
-      <ul>
-        <li className="mb-2">History</li>
-        <li className="mb-2">Your videos</li>
-        <li className="mb-2">Watch later</li>
-        <li className="mb-2">Your Channel</li>
-        <li className="mb-2">Liked Videos</li>
-        <li className="mb-2">_____________________</li>
-      </ul>
+        <ul>
+          <li className="mb-[14px]">↺ History</li>
+          <li className="mb-[14px]">▷ Your videos</li>
+          <li className="mb-[14px]">◷ Watch later</li>
+          <li className="">_____________________</li>
+        </ul>
 
-      <div className="font-bold mb-2 flex">
-        <img
-          src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-512.png"
-          alt="icon"
-          className="  mr-1 h-[25px]"
-        />
-        More from YouTube
+        <div className="font-bold mb-[14px] flex">
+          <img
+            src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kNS0wOS5wbmc.png"
+            // alt="icon"
+            className="  mr-1 h-[25px]"
+          />
+          YouTube
+        </div>
+
+        <ul>
+          <li className="mb-[14px]">⁜ YouTube Premium</li>
+          <li className="mb-[14px]">◉ YouTube Studio</li>
+          <li className="mb-[14px]">♪ YouTube Music</li>
+          <li className="">_____________________</li>
+        </ul>
+
+        <h1 className="font-bold mb-[14px] ">⌀ Explore</h1>
+
+        <ul>
+          <li className="mb-[14px]">♪ Music</li>
+          <li className="mb-[14px]">⊚ Live</li>
+          <li className="mb-[14px]">⩎ News</li>
+          <li className="mb-[14px]">ँ Sports</li>
+          <li className="mb-[14px]">⪨ Learning</li>
+          <li className="mb-[14px]">⩄ Podcasts</li>
+        </ul>
       </div>
-
-      <ul>
-        <li className="mb-2">YouTube Premium</li>
-        <li className="mb-2">YouTube Studio</li>
-        <li className="mb-2">YouTube Music</li>
-        <li className="mb-2">YouTube Kids</li>
-        <li className="mb-2">_____________________</li>
-      </ul>
-
-      <h1 className="font-bold mb-2 ">⌀ Explore</h1>
-
-      <ul>
-        <li className="mb-2">Music</li>
-        <li className="mb-2">Movies</li>
-        <li className="mb-2">Live</li>
-        <li className="mb-2">Gaming</li>
-        <li className="mb-2">News</li>
-        <li className="mb-2">Sports</li>
-        <li className="mb-2">Learning</li>
-        <li className="mb-2">Podcasts</li>
-      </ul>
     </div>
   );
 }
