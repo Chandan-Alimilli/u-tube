@@ -8,7 +8,7 @@ function SideBar() {
   if (!isMenuOpen) return null;
 
   return (
-    <div className="pl-10  py-1 shadow-lg w-[18rem] mt-[74px] fixed bg-white text-xl overflow-y-auto h-screen scrollbar-track-gray-400 ">
+    <div className="pl-10 py-1 shadow-lg w-[18rem] mt-[74px] fixed bg-white text-lg h-screen overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200 ">
       <div className=" ">
         <ul className="font-bold">
           <li className="mb-[10px] text-md ">

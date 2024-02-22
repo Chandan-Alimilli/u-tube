@@ -3,7 +3,7 @@ import VideroCont from "./VideroCont";
 
 function MainContainer() {
   return (
-    <div className=" mt-[72px] ml-[18rem]">
+    <div className=" mt-[72px] ml-[17rem]">
       <ButtonList />
       <VideroCont />
     </div>
