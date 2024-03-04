@@ -1,4 +1,4 @@
-#Youtube
+# Youtube
 
 Designed and developed a comprehensive YouTube clone using React, Redux, React Router, and custom CSS. The project showcases a commitment to crafting a user-friendly and visually engaging platform that emulates the core functionalities of the original YouTube. By leveraging a powerful combination of frontend technologies, the clone achieves a dynamic and responsive user interface, providing users with a seamless and immersive video-sharing experience. The project stands as a testament to the developer's adaptability and creativity in the rapidly evolving landscape of frontend development, contributing to innovative and future-ready solutions for a dynamic user base
 
