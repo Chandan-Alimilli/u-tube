@@ -30,7 +30,7 @@ function WatchVideosCards({ video }) {
   const { snippet, statistics } = video;
   const { channelTitle, title, thumbnails } = snippet;
   return (
-    <div className="flex p-[4px]">
+    <div className="flex p-[4px] ">
       <img
         className="rounded-xl  w-[200px]  "
         src={thumbnails.medium.url}

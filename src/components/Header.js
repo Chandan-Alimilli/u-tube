@@ -19,7 +19,7 @@ function Header() {
         <img
           onClick={() => toggleMenuHandler()}
           alt="menu"
-          className="h-10 cursor-pointer mr-5 ml-5 mt-2"
+          className="h-10 cursor-pointer mr-5 ml-3 mt-2"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png"
         />
 
@@ -41,8 +41,8 @@ function Header() {
       {/* <Icons/> */}
       {/* <Icons /> */}
       <a href="/icons">
-        <button className="text-xl font-bold mt-3 text-[#52a447]">
-          About App
+        <button className="text-xl font-bold mt-5 text-[#52a447]">
+          Over<span className="text-xl font-bold text-black">view</span>
         </button>
       </a>
     </div>
