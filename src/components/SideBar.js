@@ -12,55 +12,56 @@ function SideBar() {
       <div className=" ">
         <ul className="font-bold">
           <li className="mb-[10px] text-md ">
-            <Link to="/">▢ Home</Link>
+            <Link to="/">
+              {" "}
+              <span className="text-[#52a447]">▢</span> Home
+            </Link>
           </li>
           <a href="https://www.youtube.com/shorts/UfciY8tjLEc">
-            <li className="mb-[14px]">◇ Shorts</li>
+            <li className="mb-[14px]">
+              <span className="text-[#52a447]">◇</span> Shorts
+            </li>
           </a>
 
           <li className="">
-            <Link to="/">▷ Videos</Link>
+            <Link to="/">
+              {" "}
+              <span className="text-[#52a447]">▷</span> Videos
+            </Link>
           </li>
           <li>_____________________</li>
         </ul>
 
-        <h1 className="font-bold mb-[14px] ">◎ App Devloper </h1>
+        <h1 className="font-bold mb-[14px] ">
+          <span className="text-[#52a447]">◎</span> App Devloper{" "}
+        </h1>
 
         <ul>
           <a href="https://chandan08.netlify.app/">
-            <li className="mb-[14px] ml-8 font-semibold"> portfolio</li>
+            <li className="mb-[14px] ml-4 font-semibold"> Portfolio</li>
+          </a>
+          <a href="https://www.linkedin.cohttps://www.linkedin.com/in/chandan-allimilli/">
+            <li className="mb-[14px] ml-4 font-semibold"> Linkden</li>
           </a>
 
-          <li className="mb-[14px] ml-8 font-semibold"> Linkden</li>
-          <li className="mb-[14px] ml-8 font-semibold">Github</li>
+          <a href="https://github.com/Chandan-Alimilli">
+            <li className="mb-[14px] ml-4 font-semibold">Github</li>
+          </a>
+
           <li className="">_____________________</li>
         </ul>
 
         <div className="font-bold mb-[14px] flex">
-          <img
-            src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-512.png"
-            // alt="icon"
-            className="  mr-1 h-[25px]"
-          />
-          YouTube
+          <span className="text-[#52a447]">⩎ </span> Tech Stack
         </div>
 
         <ul>
-          <li className="mb-[14px]">⁜ YouTube Premium</li>
-          <li className="mb-[14px]">◉ YouTube Studio</li>
-          <li className="mb-[14px]">♪ YouTube Music</li>
+          <li className="mb-[14px] font-semibold ml-4">React JS</li>
+          <li className="mb-[14px] font-semibold ml-4">Redux(RKT)</li>
+          <li className="mb-[14px] font-semibold ml-4">React-Router-Dom</li>
+          <li className="mb-[14px] font-semibold ml-4">Tailwind CSS</li>
+          <li className="mb-[14px] font-semibold ml-4">JavaScript</li>
           <li className="">_____________________</li>
-        </ul>
-
-        <h1 className="font-bold mb-[14px] ">⌀ Explore</h1>
-
-        <ul>
-          <li className="mb-[14px]">♪ Music</li>
-          <li className="mb-[14px]">⊚ Live</li>
-          <li className="mb-[14px]">⩎ News</li>
-          <li className="mb-[14px]">ँ Sports</li>
-          <li className="mb-[14px]">⪨ Learning</li>
-          <li className="mb-[14px]">⩄ Podcasts</li>
         </ul>
       </div>
     </div>

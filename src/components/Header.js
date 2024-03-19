@@ -28,7 +28,7 @@ function Header() {
 
       <div className="col-span-10  felx text-center mt-3">
         <a href="/">
-          <span className="text-3xl ml-14 mt-3 text-center font-bold text-[#52a447]">
+          <span className="text-3xl  mt-3 text-center font-bold text-[#52a447]">
             {" "}
             Video
           </span>
