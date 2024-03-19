@@ -32,13 +32,13 @@ function WatchVideosCards({ video }) {
   return (
     <div className="flex p-[4px]">
       <img
-        className="rounded-xl  w-[275px]  "
+        className="rounded-xl  w-[200px]  "
         src={thumbnails.medium.url}
         alt="img"
       />
       <ul className="grid p-1">
         <li className="font-bold p-1 text-md line-clamp-2">{title}</li>
-        <li>{channelTitle} </li>
+        <li className="text-[#52a447]">{channelTitle} </li>
         <li>
           {statistics.viewCount} Views • {statistics.likeCount} Likes
         </li>

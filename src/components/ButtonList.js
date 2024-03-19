@@ -23,7 +23,7 @@ function ButtonList() {
   ];
 
   return (
-    <div className="flex px-4 py-1  bg-white ">
+    <div className="flex px-4 py-1  bg-[#1d2e2b] ">
       {videoCategories.map((category) => (
         <Button key={category} category={category} />
       ))}

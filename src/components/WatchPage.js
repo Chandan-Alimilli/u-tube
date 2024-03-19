@@ -32,12 +32,12 @@ function WatchPage() {
   };
 
   return (
-    <div className="flex mt-[80px]">
+    <div className="flex mt-[80px] bg-[#1d2e2b]">
       <div className="  rounded-lg p-[4px] ml-2  pl-2 shadow-md ">
         <iframe
           className="rounded-2xl shadow-xl"
-          width="1120"
-          height="620"
+          width="1050"
+          height="540"
           src={"https://www.youtube.com/embed/" + searchParams.get("v")}
           title="YouTube video player"
           frameborder="0"
@@ -45,7 +45,7 @@ function WatchPage() {
           allowFullScreen
         ></iframe>
 
-        <div className="rounded-xl shadow-xl pb-1 pl-1">
+        <div className="rounded-xl shadow-xl pb-1 pl-1 w-[1060px]">
           <h2 className="font-bold text-2xl p-2 mt-2">{videoDetails.title}</h2>
 
           <div className="flex p-1">
@@ -57,27 +57,29 @@ function WatchPage() {
               Subscribe
             </button>
 
-            <button className=" bg-gray-200  px-1   text-balck rounded-l-full border-black">
+            <button className=" bg-[#52a447]  px-1   text-balck rounded-l-full border-black">
               👍🏿28k
             </button>
 
-            <button className=" bg-gray-200  px-1  text-balck rounded-r-full mr-4 border-black">
+            <button className=" bg-[#52a447]  px-1  text-balck rounded-r-full mr-4 border-black">
               👎🏿 1.2k
             </button>
 
-            <button className=" bg-gray-200  px-5 py-2  text-balck rounded-full mr-3">
+            <button className=" bg-[#52a447]  px-5 py-2  text-balck rounded-full mr-3">
               ⌀ Share
             </button>
 
-            <button className=" bg-gray-200  px-5 py-2   rounded-full mr-3">
+            <button className=" bg-[#52a447]  px-5 py-2   rounded-full mr-3">
               ⇩ Download
             </button>
 
-            <button className=" bg-gray-200 p-3   rounded-[90%]">•••</button>
+            <button className="  p-3 bg-[#52a447]  rounded-[90%]">•••</button>
           </div>
 
-          <div className=" text-lg  line-clamp-4 mt-2 bg-gray-100 rounded-2xl  p-[6px] px-[6px] mx-2 mb-7 w-[69rem]   ">
-            <p className="font-bold text-xl ml-2 ">4.1 M Views • 3 days ago</p>
+          <div className=" text-lg text-gray-600  line-clamp-6 mt-2 bg-[#1d2e2b] bg-opacity-10 rounded-2xl  p-[6px] px-[6px] mx-2 mb-7 w-[1060px]   ">
+            <p className="font-bold text-xl ml-2 text-[#52a447] ">
+              4.1 M Views • 3 days ago
+            </p>
             {videoDetails.description}
           </div>
         </div>

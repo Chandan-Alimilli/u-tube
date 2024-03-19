@@ -3,7 +3,7 @@ import SideBar from "./SideBar";
 
 function Body() {
   return (
-    <div className="flex">
+    <div className="flex bg-[#1d2e2b]">
       <SideBar />
       <Outlet />
     </div>

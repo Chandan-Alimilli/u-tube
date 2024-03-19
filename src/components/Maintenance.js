@@ -8,14 +8,14 @@ function Maintenance() {
       <img
         src="https://img.freepik.com/free-vector/coming-soon-paint-brush-stroke_78370-1125.jpg"
         alt="coming soon "
-        className=" w-[33%] ml-[28rem]    "
+        className=" w-[33%] ml-[22rem]    "
       />
-      <div className=" font-bold ml-[29rem] text-lg">
-        <div className=" mb-4 flex">
+      <div className=" font-bold ml-[19rem] text-lg">
+        <div className=" mb-2 flex">
           <img
             src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-512.png"
             alt="icon"
-            className=" mr-[16px] h-[30px]"
+            className=" mr-[12px] h-[30px]"
           />
 
           <p>we are working on this icons and buttons functionality</p>
@@ -59,8 +59,8 @@ function Maintenance() {
         </div>
         {/* // button */}
       </div>
-      <div className="flex mt-5 ml-12">
-        <button className="  bg-gray-200  px-5  mr-[3rem] ml-9 rounded-full">
+      <div className="flex mt-5 ">
+        <button className="  bg-gray-200    mr-[2rem]  rounded-full">
           Subscribe
         </button>
 
@@ -95,7 +95,7 @@ function Maintenance() {
         <button className=" bg-gray-200 p-3   rounded-[90%]">•••</button>
       </div>
       {/* </Link> */}
-      <div className="p-5 text-xl  my-5">
+      <div className="p-5  my-5">
         <p>
           Designed and developed a comprehensive YouTube clone using React,
           Redux, React Router, and custom CSS. The project showcases a

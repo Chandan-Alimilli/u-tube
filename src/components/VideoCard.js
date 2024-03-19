@@ -7,7 +7,7 @@ function VideoCard({ cards }) {
   const { channelTitle, title, thumbnails } = snippet;
 
   return (
-    <div className=" shadow-xl rounded-2xl  w-[290px] p-[5px] ml-5 h-80   ">
+    <div className=" shadow-xl rounded-2xl  w-[290px] p-[5px] ml-5 h-80 border-[#52a447] border-y-2 ">
       <img
         className="rounded-xl  w-full "
         src={thumbnails.medium.url}
@@ -15,7 +15,7 @@ function VideoCard({ cards }) {
       />
       <ul className="h-2/5">
         <li className="font-bold p-1 line-clamp-2">{title}</li>
-        <li className="pb-1">{channelTitle}</li>
+        <li className="pb-1 text-[#52a447] ">{channelTitle}</li>
         <li>
           <pre>
             {statistics.viewCount} Views • {statistics.likeCount} Likes

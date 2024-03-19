@@ -28,7 +28,7 @@ function VideroCont() {
   if (loading) return <ShimmerCont />;
 
   return (
-    <div className="flex flex-wrap p-[10px] w-[90em]">
+    <div className="flex flex-wrap p-[10px] w-[90em] bg-[#1d2e2b]">
       {videos.map((video) => (
         <Link key={video.id} to={"/watch?v=" + video.id}>
           <VideoCard cards={video} />

@@ -17,8 +17,8 @@ import React from "react";
 const ShimmerCard = () => {
   return (
     <div className="ml-5 w-80 h-80 shadow-md p-3 ">
-      <div className="h-[65%] bg-gray-300 px-2"></div>
-      <div className="w-5 bg-gray-300 px-2"></div>
+      <div className="h-[65%] bg-gray-900 px-2"></div>
+      <div className="w-5 bg-gray-900 px-2"></div>
     </div>
   );
 };
